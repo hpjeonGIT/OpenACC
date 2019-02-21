@@ -69,10 +69,4 @@ program main
     deallocate(a,r,e,stat=ierr)
     call cpu_time(t1)
     print*, t1 -t0, npair
-
-!ava02.corning.com> time ./a.out
-!   0.6320531                  10000000000
-!   0.2809992                  10000000000
-
-
 end program
