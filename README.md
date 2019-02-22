@@ -77,4 +77,5 @@ Sample codes for OpenACC implementation
   - One MPI rank per GPU is recommended
 - No multiple-threading supported random number generation
 - Reduction in acc routine is not supported
+- 2D array can not be privatized in the loop
 
